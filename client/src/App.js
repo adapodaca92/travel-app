@@ -62,7 +62,7 @@ function App() {
       long: newPlace.long,
     };
     try {
-      const res = await axios.post("/pins", newPin);
+      const res = await axios.post("https://mappin-b28f4715d47e.herokuapp.com/pins", newPin);
       setPins([...pins, res.data]);
       setNewPlace(null);
     } catch (err) {
