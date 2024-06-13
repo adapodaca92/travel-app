@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8800/api"
+  "proxy": "https://mappin-b28f4715d47e.herokuapp.com/"
 }
